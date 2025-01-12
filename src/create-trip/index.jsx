@@ -1,8 +1,6 @@
-import Input_ from 'postcss/lib/input';
 import React, { useState } from 'react'
 import GooglePlacesAutocomplete from 'react-google-places-autocomplete'
 import { Input } from '@/components/ui/input';
-import { SelectBudget } from '@/constants/options';
 
 function CreateTrip() {
   const [place, setPlace]  = useState();
